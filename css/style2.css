@@ -1,0 +1,112 @@
+/* using position handle layout and design  */
+
+:root {
+    --font1:"borel", cursive;
+    --font2: "Sofia", cursive;
+    --sec: #26292e;
+    --prim: #e7718b;
+    --tert: #f4f4f6;
+    --sec2border: #fce3e7;
+    --btnColor: #353535;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #704650
+    );
+    /* 
+    product box #444
+    product border #b8bdd0
+     */
+}
+
+* {box-sizing: border-box;}
+
+/* tag names */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--tert);
+}
+
+/* classes */
+
+.button {
+    padding: 8px;
+    margin-left: 15px;
+    background-color: var(--btnColor);
+    color: var(--tert);
+    border-radius: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid blue
+}
+
+.row {
+    position: relative;
+}
+
+.header {
+    background-color: var(--sec);
+}
+
+.header, #topSocialNav {
+    width: 50;
+    border: 1px solid white;
+}
+
+.subheading {
+    font-family: sans-serif;
+    color: var(--tert);
+}
+
+.social-item {
+    display: inline;
+}
+
+.sec1box {
+    color: var(--tert);
+    padding: 10px;
+}
+
+.section1 {
+    background-image: var(--grad);
+}
+
+
+
+
+
+.heading {
+    font-family: var(--font1);
+    color: var(--tert);
+}
+
+.sec1-box {
+    width: 50%;
+    height: 300px;
+}
+
+
+
+/* ids */
+
+#sec1Box3 {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+
+#topSocialNav {
+    display: inline;
+    top: 10px;
+    right: 20px;
+    position: absolute;
+}
+
+

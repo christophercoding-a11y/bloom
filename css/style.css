@@ -1,0 +1,165 @@
+/* using margin, padding , float */
+
+:root {
+    --font1:"borel", cursive;
+    --font2: "Sofia", cursive;
+    --sec: #26292e;
+    --prim: #e7718b;
+    --tert: #f4f4f6;
+    --sec2border: #fce3e7;
+    --btnColor: #353535;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #704650
+    );
+    /* 
+    product box #444
+    product border #b8bdd0
+     */
+}
+
+* {box-sizing: border-box;}
+
+/* tag names */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--tert);
+}
+
+/* classes */
+
+.button {
+    padding: 8px;
+    margin-left: 15px;
+    background-color: var(--btnColor);
+    color: var(--tert);
+    border-radius: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid blue; */
+}
+
+.clear {
+    clear: both;
+}
+
+.client-box {
+    width: calc(100% / 3);
+    float: left;
+    border: 1px solid brown; 
+}
+
+.header {
+    background-color: var(--sec);
+}
+
+.heading, #topSocialNav {
+    width: 50%;
+    border: 1px solid white;  
+    float: left;
+}
+
+.heading {
+    font-family: var(--font1);
+    color: var(--tert);
+
+}
+
+.subheading {
+    font-family: sans-serif;
+}
+
+.sec2-box {
+    padding: 15px;
+    float: left;
+    width: calc(100% / 3);
+}
+
+.section1 {
+    width: 100%;
+    background-image: var(--grad);
+}
+
+.section2 {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ddd;
+    border-bottom: 5px solid #f0d0db;
+}
+
+.sec2-text {
+    color: grey;
+}
+
+.sec1Box {
+    padding: 10px;
+}
+
+.sec1-Box {
+    width: 50%;
+    float: left;
+    color: var(--tert);
+}
+
+.social-item {
+    display: inline;
+}
+
+.social-list {
+    padding-top: 5px;
+    padding-left: 0;
+    text-align: right;
+    list-style-type: none;
+}
+
+
+
+.figure {
+    margin-right: 60px;
+    margin-bottom: 30px;
+    background-color: black;
+    /* border: 5px solid #b8c4d4; */
+    height: 140px;
+    width: 280px;
+    float: left;
+}
+
+.product-box {
+    width: calc((100% /  3) * 2);
+    float: left;
+    border: 1px solid green;
+}
+
+.sec4-text {
+    padding-top: 35px;
+    color: grey;
+}
+
+.bold {
+    font-weight: 900;
+    color: black;
+}
+
+.footer {
+    background-color: #26292e;
+    height: 45px;
+}
+
+.footer-text {
+    color: #ddd;
+    text-transform: lowercase;
+}
+
+
+
+/* ids */
+
+
+
+
