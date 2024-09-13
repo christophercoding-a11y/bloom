@@ -72,8 +72,21 @@ body {
     padding: 10px;
 }
 
+.sec2-box {
+    padding: 15px;
+    width: calc(100% / 3);
+    border: 1px solid purple;
+}
+
 .section1 {
     background-image: var(--grad);
+}
+
+.section2 {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ddd;
+    border-bottom: 5px solid #f0d0db;
 }
 
 
@@ -104,7 +117,7 @@ body {
 
 #topSocialNav {
     display: inline;
-    top: 10px;
+    top: 3px;
     right: 20px;
     position: absolute;
 }
